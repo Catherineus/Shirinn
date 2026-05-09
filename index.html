@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Love Blog ❤️</title>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom right, #ffe4ec, #ffd6f5);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      background: white;
+      width: 85%;
+      max-width: 950px;
+      border-radius: 25px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+      overflow: hidden;
+      animation: fadeIn 1.5s ease;
+    }
+
+    .header {
+      text-align: center;
+      padding: 30px;
+      background: #ffb6d9;
+      color: white;
+      font-size: 2.2rem;
+      font-weight: bold;
+    }
+
+    .content {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 40px;
+      gap: 30px;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .photo {
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 8px solid #ff69b4;
+      box-shadow: 0 5px 20px rgba(255,105,180,0.4);
+    }
+
+    .text {
+      flex: 1;
+      min-width: 280px;
+      font-size: 1.2rem;
+      line-height: 1.8;
+      color: #444;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 20px;
+      background: #fff0f7;
+      color: #ff1493;
+      font-style: italic;
+      font-size: 1rem;
+    }
+
+    .heart {
+      position: fixed;
+      color: pink;
+      font-size: 20px;
+      animation: float 5s linear infinite;
+      opacity: 0.7;
+    }
+
+    @keyframes float {
+      0% {
+        transform: translateY(100vh) rotate(0deg);
+      }
+      100% {
+        transform: translateY(-120vh) rotate(360deg);
+      }
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: scale(0.95);
+      }
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Floating Hearts -->
+  <div class="heart" style="left:10%;">❤️</div>
+  <div class="heart" style="left:25%; animation-delay:1s;">💕</div>
+  <div class="heart" style="left:45%; animation-delay:2s;">💖</div>
+  <div class="heart" style="left:70%; animation-delay:3s;">💗</div>
+  <div class="heart" style="left:90%; animation-delay:4s;">❤️</div>
+
+  <div class="container">
+
+    <div class="header">
+      HELLOOOO MY SWEETHEART ❤️
+    </div>
+
+    <div class="content">
+
+      <!-- CHANGE IMAGE HERE -->
+      <img src="dinos.jpg" alt="photo" class="photo">
+
+      <div class="text">
+        <p>
+          Hello Dearrrrr 💕
+        </p>
+
+        <p>
+          You are the most beautiful person I have ever met
+          Every moment with you feels soooo warm, peaceful, and special hehe
+        </p>
+
+        <p>
+          Thank you for always being here sweetheart and making my days brighter hehe,
+          I hope we can keep having beautiful memories together❤️
+        </p>
+
+        <p>
+          I love you infinity and beyond ❤️
+        </p>
+      </div>
+
+    </div>
+
+    <div class="footer">
+      My sweet honey pookie booo 💕
+    </div>
+
+  </div>
+
+</body>
+</html>
